@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+   
+}
+.PTSP {
+    position: relative; /* Makes it the reference for absolute positioning */
+    text-align: center; /* Centers text horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.TittlePTSP {
+    position: absolute; /* Positions the text relative to the .PTSP container */
+    top: 50%; /* Adjusts the vertical positioning */
+    left: 25%; /* Adjusts the horizontal positioning */
+    transform: translate(-50%, -50%); /* Centers the text perfectly */
+    color: rgba(255, 255, 255, 0.803); /* Ensures the text is visible over the image */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2.1); /* Optional shadow for better readability */
+    
+}
+.infoTittle{
+    position: absolute; /* Positions the text relative to the .PTSP container */
+    top: 70%; /* Adjusts the vertical positioning */
+    left: 35%; /* Adjusts the horizontal positioning */
+    transform: translate(-50%, -50%); /* Centers the text perfectly */
+    color: rgba(255, 255, 255, 0.83); /* Ensures the text is visible over the image */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2.1); /* Optional shadow for better readability */
+}
+.InfoPTSP{
+    background-color: rgb(26, 26, 26);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    padding: 5%;
+    margin: 0%;
+}
+.WYS{
+    display: flex;             /* Use flexbox for layout */
+    justify-content: center;   /* Center content horizontally */
+    text-align: justify;  
+}
+.btnContact{
+    background-color: #7f807f;
+            color: rgb(144, 142, 142);
+            border: none;
+            padding: 15px 32px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer; 
+            border-radius: 4px;
+            position:relative;
+            left: 42%;
+            font-family: 'Bebas Neue', sans-serif;
+}
